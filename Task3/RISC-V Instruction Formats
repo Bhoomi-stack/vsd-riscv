@@ -1,0 +1,89 @@
+1st Instruction
+Instruction: addi sp, sp, -16
+Address: 10184
+32-bit Encoding: ff010113
+Format: I-Type
+
+2nd Instruction
+Instruction: sd ra, 8(sp)
+Address: 10188
+32-bit Encoding: e40682
+Format: S-Type
+
+3rd Instruction
+Instruction: li a1, 25
+Address: 1018c
+32-bit Encoding: 01900593
+Format: I-Type
+
+4th Instruction
+Instruction: li a0, 0x21
+Address: 10190
+32-bit Encoding: 02100513
+Format: I-Type
+
+5th Instruction
+Instruction: auipc a0, 0x1a0
+Address: 10194
+32-bit Encoding: 17050513
+Format: U-Type
+
+6th Instruction
+Instruction: jal ra, 1040 <printf>
+Address: 10198
+32-bit Encoding: 26c000ef
+Format: J-Type
+
+7th Instruction
+Instruction: ld ra, 8(sp)
+Address: 1019c
+32-bit Encoding: 00013803
+Format: I-Type
+
+8th Instruction
+Instruction: addi sp, sp, 16
+Address: 101a0
+32-bit Encoding: 01010113
+Format: I-Type
+
+9th Instruction
+Instruction: ret
+Address: 101a4
+32-bit Encoding: 00008067
+Format: I-Type
+
+10th Instruction
+Instruction: mv a1, a0
+Address: 101a8
+32-bit Encoding: 00050593
+Format: R-Type
+
+11th Instruction
+Instruction: li a3, 0
+Address: 101ac
+32-bit Encoding: 00000693
+Format: I-Type
+
+12th Instruction
+Instruction: li a0, 0
+Address: 101b0
+32-bit Encoding: 00000513
+Format: I-Type
+
+13th Instruction
+Instruction: j 12df4 <__register_exitproc>
+Address: 101b4
+32-bit Encoding: 4390206f
+Format: J-Type
+
+14th Instruction
+Instruction: addi sp, sp, -16
+Address: 101c0
+32-bit Encoding: ff010113
+Format: I-Type
+
+15th Instruction
+Instruction: li a1, 0
+Address: 101c4
+32-bit Encoding: 00000593
+Format: I-Type
