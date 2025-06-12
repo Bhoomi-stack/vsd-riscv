@@ -9,7 +9,7 @@ Name: Bhoomika V
 
 College: ATME College of Engineering
 
-Github Profile: Bhoomi-Stack
+Github Profile: Bhoomi-stack
 
 
 #Task1:
